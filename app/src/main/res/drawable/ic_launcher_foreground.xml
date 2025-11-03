@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- InkTouch Logo Simplified for App Icon -->
+    <!-- Yellow accent (star/ink drop) -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M25,35 L28,30 L31,35 L28,33 Z"/>
+    
+    <!-- Black text "InkTouch" -->
+    <!-- Letter I -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M28,38 h4 v24 h-4 Z"/>
+    
+    <!-- Letter n -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M34,45 h3 v3 c1,-2 2,-3 4,-3 c2,0 3,1 3,4 v13 h-3 v-12 c0,-1 -0.5,-2 -1.5,-2 c-1,0 -2,1 -2,2 v12 h-3 v-17 Z"/>
+    
+    <!-- Letter k -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M47,38 h3 v13 l5,-6 h4 l-5,6 l5,11 h-4 l-3,-7 l-2,2 v5 h-3 v-24 Z"/>
+    
+    <!-- Letter T -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M58,45 h8 v3 h-2.5 v14 h-3 v-14 h-2.5 v-3 Z"/>
+    
+    <!-- Letter o -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M68,53.5 c0,-3 2,-5.5 5,-5.5 c3,0 5,2.5 5,5.5 c0,3 -2,5.5 -5,5.5 c-3,0 -5,-2.5 -5,-5.5 Z M73,56 c1.5,0 2,-1.5 2,-2.5 c0,-1 -0.5,-2.5 -2,-2.5 c-1.5,0 -2,1.5 -2,2.5 c0,1 0.5,2.5 2,2.5 Z"/>
+    
+    <!-- Letter u -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M80,45 h3 v12 c0,1 0.5,2 1.5,2 c1,0 2,-1 2,-2 v-12 h3 v17 h-3 v-3 c-1,2 -2,3 -4,3 c-2,0 -3,-1 -3,-4 v-13 Z"/>
+    
+</vector>

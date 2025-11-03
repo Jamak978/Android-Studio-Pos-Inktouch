@@ -1,0 +1,31 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+    resolutionStrategy {
+        eachPlugin {
+            if (requested.id.namespace == 'com.android') {
+                useModule("com.android.tools.build:gradle:8.1.0")
+            }
+        }
+    }
+}
+
+dependencyResolutionManagement {
+    // Use PREFER_SETTINGS to allow repositories to be defined in settings.gradle
+    // while still allowing build.gradle to define additional repositories if needed
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+        // Add any other repositories here
+    }
+}
+
+// Root project configuration
+rootProject.name = "inktouch"
+include ':app'

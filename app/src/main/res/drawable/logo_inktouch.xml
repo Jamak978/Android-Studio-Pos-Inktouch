@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Temporary placeholder - Replace this file with the actual logo_inktouch.png image -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="80dp"
+    android:viewportWidth="200"
+    android:viewportHeight="80">
+    
+    <!-- Background -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M0,0h200v80h-200z"/>
+    
+    <!-- Text placeholder -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M20,30h160v20h-160z"/>
+</vector>
