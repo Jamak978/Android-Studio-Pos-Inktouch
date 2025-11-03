@@ -145,14 +145,21 @@ create policy "Allow authenticated manage order_items"
   using (true);
 ```
 
-### 3. Build and Run
+### 3. FLOWCHART
+<img width="1128" height="632" alt="Screenshot 2025-11-01 183347" src="https://github.com/user-attachments/assets/cab47545-086f-4237-9c4b-1e104fea8f14" />
+
+### 4.Desain DataBase
+<img width="851" height="636" alt="Screenshot 2025-11-02 231104" src="https://github.com/user-attachments/assets/febc1895-566e-4765-853a-3388d8848388" />
+
+
+### 5. Build and Run
 
 1. Open the project in Android Studio Chipmunk
 2. Sync Gradle files
 3. Connect your Vivo Y22 device or use an emulator
 4. Run the application
 
-### 4. First Time Setup
+### 6. First Time Setup
 
 1. Launch the app
 2. Click "Sign Up" to create a new account
